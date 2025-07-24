@@ -478,7 +478,7 @@ footer nav a:hover {
     z-index: 1000;
   }
 
-  nav {
+  #nav {
     display: none;
     flex-direction: column;
     align-items: center;
@@ -491,14 +491,19 @@ footer nav a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 
-  nav a {
+  #nav a {
     margin: 10px 0;
     font-size: 1.2rem;
   }
 
-  nav.show {
+  #nav.show {
     display: flex;
   }
+  footer nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
 }
 
 
